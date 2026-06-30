@@ -101,34 +101,34 @@
 
 ### ðŸ› ï¸„1¤7 The "Pure Utility" Wing
 
-- [ ] **21. `pocketknife.env_police`**
+- [x] **21. `pocketknife.env_police`**
   - `require_env(*keys)` â€„1¤7 raises clear error early if env vars are missing
 
-- [ ] **22. `pocketknife.diet_pandas`**
+- [x] **22. `pocketknife.diet_pandas`**
   - `groupby_key(records, key)` â€„1¤7 groups list of dicts by a field, no Pandas needed
 
-- [ ] **23. `pocketknife.chunker`**
+- [x] **23. `pocketknife.chunker`**
   - `paginate(iterable, size)` â€„1¤7 safely splits any iterable into chunks of `size`
 
-- [ ] **24. `pocketknife.lazy_logger`**
+- [x] **24. `pocketknife.lazy_logger`**
   - `@log_to_file(path)` â€„1¤7 decorator logging function inputs/outputs to a file
 
-- [ ] **25. `pocketknife.dict_diff`**
+- [x] **25. `pocketknife.dict_diff`**
   - `compare(a, b)` â€„1¤7 returns added, removed, and modified keys between two dicts
 
-- [ ] **26. `pocketknife.file_scout`**
+- [x] **26. `pocketknife.file_scout`**
   - `find_first(pattern, root=".")` â€„1¤7 finds first file matching a regex in a dir tree
 
-- [ ] **27. `pocketknife.safe_math`**
+- [x] **27. `pocketknife.safe_math`**
   - `divide(a, b, default=None)` â€„1¤7 safe division with a fallback on zero/type errors
 
-- [ ] **28. `pocketknife.clean_strings`**
+- [x] **28. `pocketknife.clean_strings`**
   - `normalize_text(s)` â€„1¤7 strips weird Unicode, normalizes whitespace for DB input
 
-- [ ] **29. `pocketknife.secret_keeper`**
+- [x] **29. `pocketknife.secret_keeper`**
   - `mask_secrets(d, keys)` â€„1¤7 recursively hides sensitive values in nested dicts/logs
 
-- [ ] **30. `pocketknife.gossip`**
+- [x] **30. `pocketknife.gossip`**
   - `tell_me_about(obj)` â€„1¤7 upgraded `dir()` printing markdown tables of methods + docs
 
 ---
