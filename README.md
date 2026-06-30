@@ -24,7 +24,7 @@ pip install pocketknife-python
 Or clone and install locally:
 
 ```bash
-git clone https://github.com/GokulChandar/pocketknife-python.git
+git clone https://github.com/g-c-3/pocketknife-python.git
 cd pocketknife-python
 pip install -e .
 ```
